@@ -1,0 +1,46 @@
+
+::file-selector-button {
+    display: none;
+}
+
+label[for="file-upload"] {
+    background-color: seagreen;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;    
+    text-align: center;
+    display: inline-block;    
+  }
+  
+  label[for="file-upload"]:hover {
+    background-color: green;
+  }
+
+  button {
+    background-color: seagreen;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  button:hover {
+    background-color: green;
+  }
+
+  .upload-failed {
+    background: lightsalmon;
+    border-left: 4px solid red;
+    margin-left: 20px;
+    padding: 4px 8px;
+  }
+
+  .upload-success {
+    background: lightgreen;
+    border-left: 4px solid green;
+    margin-left: 20px;
+    padding: 6px 10px;
+  }
+
